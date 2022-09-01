@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daily Activity TNW</title>
+    <link href="calendar.css" rel="stylesheet">
+    <script async src="calendar.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Daily Activity BNI Wilayah 06</h1>
+    </div>
+    <div id="cal-wrap">
+      <!-- (A) PERIOD SELECTOR -->
+      <div id="today">
+        <div id="tdy" >Today</div>
+      </div>
+      <div id="cal-date">
+        <select id="cal-mth"></select>
+        <select id="cal-yr"></select>
+      </div>
+
+      <!-- (B) CALENDAR -->
+      <div id="cal-container"></div>
+
+      <!-- (C) EVENT FORM -->
+      <form id="cal-event">
+        <h1 id="evt-head"></h1>
+        <div id="evt-date"></div>
+        <input id="evt-details" type="text" required></input>
+        <input id="evt-close" type="button" value="Close"/>
+        <input id="evt-del" type="button" value="Delete"/>
+        <input id="evt-save" type="submit" value="Save"/>
+      </form>
+    </div>
+  </body>
+</html>
+ <!-- https://www.youtube.com/watch?v=qVSa5v6_nuA -->
